@@ -1,0 +1,21 @@
+[project]
+name = "quan-ly-nhiem-vu"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "support@hyperteksoftware.com"}
+]
+readme = "README.md"
+requires-python = "3.11.9"
+dependencies = [
+    "pyside6 (>=6.9.0,<7.0.0)",
+    "pandas (==1.5.3)",
+    "openpyxl (==3.1.2)",
+    "sqlalchemy (==2.0.23)",
+    "numpy (==1.24.3)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
